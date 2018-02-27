@@ -1,0 +1,79 @@
+body{
+    background:#eee;
+  }
+  
+  #head{
+    font-family: fantasy;
+    font-size: 50px;
+    text-align:center;
+    margin-bottom: 1px;
+  }
+  #selSpa{
+    height: 100px;
+    width: 600px;
+    margin-bottom:15px;
+
+  }
+  #playerDisc{
+    position: relative;
+    background: red; 
+    width: 80px;
+    height:80px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;  
+    border-radius: 40px;
+    margin: 10px 10px 10px 10px;
+  }
+  
+    section{
+        border: 2px solid rgb(161, 161, 161);
+        height: 600px;
+        width: 700px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+  
+    .column{
+        height: 600px;
+        width: 100px;
+        border: 1px solid rgb(65, 73, 103);
+        margin: 0px;
+        flex-grow: 1;
+    }
+    .column:hover {
+      background: rgb(249, 132, 219);
+    }
+/* 
+  p.info{
+    text-align:center;
+    width:400px;
+    margin:0 auto;
+    font-size:12px;
+    font-weight:bold;
+    color:#666;
+    margin-bottom:20px;
+  }
+  
+  #game-base{
+    width:640px;  
+    margin:0 auto;
+    padding-top:60px;
+    border: 1px solid rgb(65, 73, 103);
+  }
+  
+  #game-table{
+    width:434px;
+    height:374px;
+    margin:0 auto;
+    background:url("http://img.sr/images/2014/01/28/base.png");
+    position:relative;
+  } */
+  
+  /* .disc.red{
+    background: red;
+  }
+  
+  .disc.yellow{
+    background: black;
+  } */
