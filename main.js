@@ -64,7 +64,7 @@ function checkWin() {
     }
   }
   if (checkDraw === 'True') {
-    alert('DRAW!? You both suck!');
+    alert('DRAW!');
       reset();
   }
 }
